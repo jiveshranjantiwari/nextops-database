@@ -132,7 +132,7 @@ This approach uses Microsoft Azure's fully managed PostgreSQL Flexible Server se
    - **Resource group**: Select or create a resource group (e.g., `rg-nextops`).
    - **Server name**: Enter a unique name (e.g., `nextops-psql-server`).
    - **Region**: Choose a region near your clients/apps.
-   - **PostgreSQL version**: Select version `15` or `16`.
+   - **PostgreSQL version**: Select version `17` or `18`.
    - **Workload type**: Select *Development* or *Production*.
    - **Compute + storage**: Burstable `B1ms` or `B2s` is sufficient for development.
    - **Authentication method**: *PostgreSQL authentication only* (or Microsoft Entra ID).
